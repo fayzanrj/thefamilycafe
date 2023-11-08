@@ -11,6 +11,9 @@ export const metadata = {
   title: "Cupcakes - The Family Cafe",
   description:
     "Explore our heavenly cupcakes, delivered to your door. Order your favorites today for a sweet journey you won't want to miss!",
+    alternates: {
+      canonical: "/cupcakes",
+    },
 };
 
 // HEADERS FOR API REQUEST

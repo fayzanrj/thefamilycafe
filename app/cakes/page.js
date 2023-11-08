@@ -10,6 +10,9 @@ export const metadata = {
   title: "Cakes - The Family Cafe",
   description:
     "Delight in homemade cakes, made with love, delivered to your door. Satisfy your sweet cravings with our magical delights! Order now",
+    alternates: {
+      canonical: "/cakes",
+    },
 };
 
 // HEADERS FOR API REQUEST

@@ -7,6 +7,16 @@ export const metadata = {
   title: "The Family Cafe - Your local food haven",
   description:
     "Welcome to The Family Cafe, your home kitchen away from home! Indulge in our delectable homemade dishes, lovingly prepared and delivered right to your doorstep.",
+  metadataBase: new URL(process.env.BASE_URL),
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+    },
+  },
+  openGraph: {
+    images: "/og-image.jpg",
+  },
 };
 
 export default function RootLayout({ children }) {

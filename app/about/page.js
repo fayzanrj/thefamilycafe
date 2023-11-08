@@ -9,6 +9,9 @@ export const metadata = {
   title: "About Us - The Family Cafe",
   description:
     "At The Family Cafe, we're not just a kitchen; we're a culinary story, committed to delivering a taste of home to your doorstep.",
+    alternates: {
+      canonical: "/about",
+    },
 };
 
 

@@ -12,6 +12,9 @@ export const metadata = {
   title: "Connect - The Family Cafe",
   description:
     "Let's Connect! Share thoughts, questions, or special requests. We're here to personalize your experience. Reach out today, let's chat!",
+    alternates: {
+      canonical: "/connect",
+    },
 };
 
 const Connect = () => {
