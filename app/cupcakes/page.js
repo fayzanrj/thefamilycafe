@@ -65,6 +65,3 @@ const Cupcakes = async () => {
 };
 
 export default Cupcakes;
-
-
-export const dynamic = 'force-dynamic'

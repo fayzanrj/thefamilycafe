@@ -66,6 +66,3 @@ const Cakes = async () => {
 };
 
 export default Cakes;
-
-
-export const dynamic = 'force-dynamic'

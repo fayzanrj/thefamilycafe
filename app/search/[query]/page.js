@@ -62,5 +62,3 @@ const Search = async ({ params }) => {
 
 export default Search;
 
-
-export const dynamic = 'force-dynamic'
