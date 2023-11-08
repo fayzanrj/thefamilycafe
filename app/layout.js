@@ -14,9 +14,6 @@ export const metadata = {
       "en-US": "/en-US",
     },
   },
-  openGraph: {
-    images: "/og-image.jpg",
-  },
 };
 
 export default function RootLayout({ children }) {
