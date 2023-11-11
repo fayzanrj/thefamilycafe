@@ -25,7 +25,7 @@ const headers = {
 const Cupcakes = async () => {
   // API FETCH REQUEST
   const response = await fetch(
-    `${process.env.HOST}/api/getProductByCategory/Cupcakes`,
+    `${process.env.HOST}/api/getProductByCategory/Cupcak es`,
     { cache: "no-store", headers: headers }
   );
   const res = await response.json();
